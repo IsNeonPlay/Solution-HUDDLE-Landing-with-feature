@@ -1,0 +1,230 @@
+@media screen and (min-width: 1000px) {
+
+  /******************** GENERAL STYLES 🖌️ ********************/
+  *:hover {
+    transition: all .3s ease;
+  }
+
+  /******************** HEADER 👇 ********************/
+  .header {
+    width: 100%;
+    background-image: url(../images/bg-hero-desktop.svg);
+    gap: 20px;
+  }
+  .header__main {
+    margin: 28px 80px;
+  }
+  .header__huddle-logo {
+    width: 130px;
+  }
+  .header__button-tryfree {
+    padding: 7px 42px;
+    font-size: 13px;
+  }
+  /*** Header Content 👇 ***/
+  .header__cont {
+    margin: 0 80px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__content-ctn {
+    width: 390px;
+    height: 210px;
+    display: grid;
+    place-items: start;
+    place-self: center;
+    gap: 10px;
+  }
+  .header__cont-title, .header__cont-paragraph {
+    margin: 0;
+    font-size: 18px;
+    text-align: start;
+  }
+  .header__cont-title {
+    width: 300px;
+  }
+  .header__cont-paragraph {
+    font-size: 13.5px;
+  }
+  .header__img {
+    margin-bottom: 40px;
+    width: 400px;
+  }
+
+  /******************** MAIN 👇 ********************/
+  .main {
+    margin: 120px 100px 30px;
+    width: 1115px;
+    display: grid;
+    gap: 38px;
+  }
+  .main__section {
+    margin: 0 auto;
+    padding: 33px 10px 33px 50px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+  .main__ctn-conversation {
+    flex-direction: row;
+  }
+  .imgs-ctn {
+    width: 270px;
+  }
+
+  /************* FLOATING CONTAINER 👇 *************/
+  .ctn-ready-build {
+    padding: 43px 70px 5px;
+  }
+  .ctn-ready-build-title {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  /******************** FOOTER 👇 ********************/
+  .footer {
+    padding: 125px 120px 30px;
+  }
+  .footer-main {
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  /*** Footer Information 👇 ***/
+  .footer__main-info {
+    place-content: center;
+    gap: 30px;
+  }
+  .footer__info {
+    gap: 20px;
+  }
+  .infos {
+    display: flex;
+    gap: 25px;
+  }
+  .info__paragraphs {
+    width: 240px;
+    font-size: 13.5px;
+  }
+  /*** Footer Contacts 👇 ***/
+  .footer__main-contact {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+  }
+  .footer__contact-ctn {
+    gap: 7px;
+  }
+  .footer__contact {
+    font-size: 14px;
+  }
+  /*** Footer Social Media 👇 ***/
+  .footer__main-social-media {
+    position: relative;
+    bottom: 30px;
+  }
+  .fa-brands {
+    font-size: 13px;
+    cursor: pointer;
+  }
+  /*** Footer Copyright 👇 ***/
+  .footer__main-copyright {
+    margin-top: -40px;
+    width: 100%;
+    text-align: end;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  /******************** HEADER 👇 ********************/
+  .header__main {
+    margin: 46px auto;
+    width: 1270px;
+  }
+  .header__huddle-logo {
+    width: 150px;
+  }
+  .header__button-tryfree {
+    padding: 10px 55px;
+  }
+  /*** Header Content 👇 ***/
+  .header__cont {
+    margin: 0 auto;
+    width: 1270px;
+  }
+  .header__content-ctn {
+    width: 520px;
+    height: min-content;
+    gap: 20px;
+  }
+  .header__cont-title {
+    width: 440px;
+    font-size: 22px;
+  }
+  .header__cont-paragraph {
+    font-size: 18px;
+  }
+  .header__img {
+    width: 680px;
+  }
+
+  /******************** MAIN 👇 ********************/
+  .main {
+    margin: 120px auto 30px;
+    width: 1440px;
+  }
+  .main__section {
+    padding: 33px 10px 33px 100px;
+    width: 1235px;
+  }
+  .imgs-ctn {
+    width: 415px;
+  }
+  .ctn-titles, .ctn-paragraph {
+    font-size: 18px;
+  }
+
+  /************* FLOATING CONTAINER 👇 *************/
+
+  .ctn-ready-build-title {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .ctn-ready-build {
+    padding: 50px 100px 10px;
+  }
+
+  /******************** FOOTER 👇 ********************/
+  .footer {
+    padding: 125px 0 30px;
+  }
+  .footer-main {
+    width: 1235px;
+  }
+  /*** Footer Information 👇 ***/
+  .info__paragraphs {
+    width: 320px;
+    font-size: 15px;
+  }
+  /*** Footer Contacts 👇 ***/
+  .footer__main-contact {
+    position: relative;
+    right: 70px;
+    gap: 140px;
+  }
+  .footer__contact {
+    font-size: 16px;
+  }
+  /*** Footer Social Media 👇 ***/
+  .footer__main-social-media {
+    right: 130px;
+  }
+  
+}
